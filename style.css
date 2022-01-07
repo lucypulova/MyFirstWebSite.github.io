@@ -1,0 +1,249 @@
+@font-face {
+  src:url(fonts/PlaylistScript.otf);
+  font-family: playlist;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div.options li:hover {
+    background: #e48a6f;
+}
+
+body{
+  background-color: #85cdca;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-bar-wrapper{
+    position: relative;
+    z-index: 2;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    pointer-events: auto;
+    height: 100px;
+}
+
+.wrapper{
+  margin: 0 auto;
+  width: 1300px;
+  min-height: 100vh;
+}
+
+.content-wrapper{
+  padding-top: 3.6vmax;
+  padding-bottom: 4.6vmax;
+}
+
+.map-container-background{
+  margin-top:4vmax;
+  margin-right: 6.5vmax;
+  width: 500px;
+  height: 350px;
+  z-index: -1;
+  background:white;
+  margin-left: 55%;
+}
+
+.map-container{
+  margin-top:3vmax;
+  margin-right: 6.5vmax;
+  float: right;
+  height: 350px;
+  width: 500px;
+  z-index: 1;
+}
+
+.city-outline{
+    z-index: -1;
+    position: absolute;
+    top: 58%;
+    width: 100%;
+}
+
+.title-contact{
+  float:left;
+  padding-left: 9.1vmax;
+  margin-left: 2vmax;
+}
+
+.contact-containerr{
+  float: left;
+}
+
+.text-contact{
+    padding-top: 2vmax;
+    padding-bottom: 3.5vmax;
+    margin-top: 9vmax;
+    padding-right: 6vmax;
+    background: #FFE8C6;
+    margin-left: 6.5vmax;
+    text-align: center;
+    font-family: garamond, serif;
+    color: #713e30;
+    z-index: 1;
+}
+
+.contacct-paragraf-title{
+  padding-bottom: 1.5vmax;
+  font-size: 30px;
+}
+.contacct-paragraf{
+    padding-top: 1vmax;
+    font-size: 20px;
+    padding-left: 6vmax;
+}
+
+.image-on-the-beach{
+  float: right;
+  padding-right: : 1vmax;
+  padding-top: 8vmax;
+}
+
+.text-avout-me{
+  padding-bottom: 5vmax;
+  padding-right: 560px;
+  padding-left: 1vmax;
+}
+
+.title-about-me{
+  text-align-last:center;
+  font-family: garamond, serif;
+  font-size: 60px;
+  color: #;
+}
+
+.paragraf-about-me{
+  padding-top: 1.5vmax;
+  text-align-last: left;
+  font-family: garamond, serif;
+  font-size: 25px;
+  color: white;
+}
+
+.image-with-sunflower{
+  float: right;
+}
+
+.text-sunflower{
+  padding-top: 3vmax;
+  padding-bottom: 5vmax;
+  padding-left: 1vmax;
+}
+
+.title-sunflower{
+    text-align-last: center;
+    font-family: garamond, serif;
+    font-size: 60px;
+    color: white;
+}
+
+.colage{
+  padding-bottom: 1vmax;
+  width: 100%;
+
+}
+
+.paragraf-sunflower1{
+    padding-top: 1.5vmax;
+    text-align-last: center;
+    font-family: garamond, serif;
+    font-size: 25px;
+    color: white;
+}
+
+.paragraf-sunflower2{
+    padding-top: 1vmax;
+    text-align-last: center;
+    font-family: garamond, serif;
+    font-size: 35px;
+    color: white;
+}
+
+footer {
+  /* position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #C38D9E;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   color: white;
+   text-align: center;
+   font-family: adobe-garamond-pro, serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 19px;*/
+   color: white;
+   text-align: center;
+   font-family: adobe-garamond-pro, serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 19px;
+   width: 100%;
+   background-color: #C38D9E;
+   padding:30px 0px 20px 0px;
+}
+
+.footer-wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  min-height: 5vh;
+}
+
+.logo{
+  float: left;
+}
+
+ul li a.logo-style{
+  display: block;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: playlist;
+  color: white;
+  padding: 0 20px;
+}
+
+.socialmedia{
+  float: right;
+}
+
+.options{
+  text-align-last: center;
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: #E27D60;
+}
+
+ul{
+  margin-left: 0px;
+  /*float: right;*/
+}
+
+ul li{
+    list-style: :none;
+    display: inline-block;
+    /*float: right;*/
+    line-height: 100px;
+}
+
+ul li a{
+  display: block;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  padding: 0 20px;
+}
+
+/*ul li a:hover{
+  color: red;
+}*/

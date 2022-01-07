@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact | Lucylu</title>
+		<link rel="shortcut icon" type="image/png" href="logo-site2.png">
+		<link rel="stylesheet" href="https://use.typekit.net/dck2vvf.css">
+		<link rel="stylesheet" href="style.css">
+  </head>
+	<body>
+			<nav>
+				<div class="nav-bar-wrapper">
+					<ul>
+						<div class="logo">
+							<li><a href="index.html" class="logo-style">Lucylu</a><li>
+						</div>
+						<div class="options">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About me</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<div class="socialmedia">
+								<li><a href="https://www.facebook.com/lpulova/"><img src="icon_fb.png" alt="Facebook icon" width="16"></a></li>
+								<li><a href="https://www.instagram.com/lucy.pulova/?hl=en"><img src="icon_insta.png" alt="Instagram icon" width="16"></a></li>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</nav>
+			<div class="wrapper">
+				<div class="content-wrapper">
+					<div class="contact-containerr">
+						<div class="title-contact">
+							<img src="image-title-Contact.jpg" alt="About me" width="300">
+						</div>
+						<div class="text-contact">
+							<div class="contacct-paragraf"
+								<p>Email: lucylu@mail.bg</p>
+							</div>
+							<div class="contacct-paragraf"
+								<p>Phone number: +359878276659</p>
+							</div>
+							<div class="contacct-paragraf"
+								<p>Address: Veliko Turnovo, Bulgaria</p>
+							</div>
+							<div class="contacct-paragraf"
+								<p>Let's work together!</p>
+							</div>
+						</div>
+					</div>
+					<div class="map-container" id="map">
+					</div>
+					<div class="map-container-background">
+					</div>
+					<script>
+							function initMap(){
+								var location = { lat:43.080547, lng:25.604741};
+								var map = new google.maps.Map(document.getElementById("map"),{
+									zoom:7,
+									center:location
+								});
+								var marker=new google.maps.Marker({
+									position:location,
+									map:map
+								});
+							}
+					</script>
+					<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGB1I0gggFn34StQk3n6eUxVx6JLq76pU&callback=initMap"></script>
+				</div>
+			</div>
+			<div class="city-outline">
+				<img src="image-city-outline.jpg" alt="City outline" width=100%>
+			</div>
+			<footer>
+				<div class="footer-wrapper"
+					<p>Dream big, work hard and make it happen!</p>
+				</div>
+			</footer>
+	</body>
+</html>
